@@ -1,0 +1,1 @@
+web: python -m no_crop_bot

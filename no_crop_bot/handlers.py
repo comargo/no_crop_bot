@@ -174,5 +174,6 @@ settings_handler = ConversationHandler(
             TypeHandler(type=Update, callback=_return_handler),
         ]
     },
-    fallbacks=[]
+    fallbacks=[],
+    allow_reentry=True
 )
